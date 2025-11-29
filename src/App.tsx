@@ -7,6 +7,7 @@ import { Access } from "./components/Access";
 import { Context } from "./components/Context";
 import { CentralSearch } from "./components/CentralSearch";
 import { Help } from "./components/Help";
+import { ScrollToFilters } from "./components/ScrollToFilters";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -46,8 +47,8 @@ function App() {
                   conhecimento, desde tratados científicos e técnicos até obras literárias e históricas de valor inestimável.
                 </p>
                 <p>
-                  Saiba mais sobre o ISEL e a sua Biblioteca em{" "}
-                  <a href="https://www.isel.pt/biblioteca" target="_blank" rel="noreferrer">biblioteca.isel.pt</a>.
+                  Saiba mais sobre o ISEL em{" "}
+                  <a href="https://www.isel.pt/" target="_blank" rel="noreferrer">www.isel.pt</a>.
                 </p>
               </div>
             </div>
@@ -61,13 +62,14 @@ function App() {
         <Help />
       </main>
 
+      <ScrollToFilters />
+
       <footer className="site-footer">
         <div className="container">
           <div className="footer-icon" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" opacity="0.95">
-              <rect x="5" y="6" width="14" height="2" rx="1"></rect>
-              <rect x="5" y="11" width="14" height="2" rx="1"></rect>
-              <rect x="5" y="16" width="14" height="2" rx="1"></rect>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" opacity="0.95" aria-hidden="true" focusable="false">
+              <path d="M3 5a2 2 0 0 1 2-2h6v16H5a2 2 0 0 0-2 2V5z"></path>
+              <path d="M21 5v16a2 2 0 0 0-2-2h-6V3h6a2 2 0 0 1 2 2z"></path>
             </svg>
           </div>
           <p className="footer-text">© {new Date().getFullYear()} Instituto Superior de Engenharia de Lisboa</p>

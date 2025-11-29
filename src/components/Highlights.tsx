@@ -29,8 +29,9 @@ export function Highlights() {
             tintClass="tint-green"
             title="Tratados Científicos"
             icon={
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="#0f766e">
-                <path d="M10 17l5-5-5-5v10z"></path>
+              <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="11" cy="11" r="5" stroke="#0f766e" strokeWidth="2" fill="none"></circle>
+                <line x1="16" y1="16" x2="21" y2="21" stroke="#0f766e" strokeWidth="2" strokeLinecap="round"></line>
               </svg>
             }
           >
@@ -40,8 +41,9 @@ export function Highlights() {
             tintClass="tint-indigo"
             title="Literatura Clássica"
             icon={
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="#3b82f6">
-                <path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm-1 15l-5-5 1.41-1.41L11 13.17l5.59-5.58L18 9z"></path>
+              <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="12" r="10" fill="#3b82f6"></circle>
+                <path d="M8 12.5l2.5 2.5L16 9.5" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
               </svg>
             }
           >

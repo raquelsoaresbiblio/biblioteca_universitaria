@@ -1,7 +1,6 @@
 const tabs = [
   { id: "intro", label: "Introdução", href: "#introducao" },
   { id: "highlights", label: "Destaques", href: "#destaques" },
-  { id: "search", label: "Pesquisa", href: "#pesquisa" },
   { id: "explore", label: "Explorar", href: "#explorar" },
   { id: "access", label: "Acesso", href: "#acesso" },
   { id: "context", label: "Contexto", href: "#contexto" },

@@ -4,9 +4,8 @@ export function Hero() {
       <div className="container">
         <div className="icon" aria-hidden="true">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff" opacity="0.95" aria-hidden="true" focusable="false">
-            <rect x="5" y="6" width="14" height="2" rx="1"></rect>
-            <rect x="5" y="11" width="14" height="2" rx="1"></rect>
-            <rect x="5" y="16" width="14" height="2" rx="1"></rect>
+            <path d="M3 5a2 2 0 0 1 2-2h6v16H5a2 2 0 0 0-2 2V5z"></path>
+            <path d="M21 5v16a2 2 0 0 0-2-2h-6V3h6a2 2 0 0 1 2 2z"></path>
           </svg>
         </div>
         <h1>Coleção Digital de Livros Antigos</h1>
