@@ -19,7 +19,7 @@ export function Access() {
             <h3 className="col-title">Como Aceder</h3>
             <ul className="bullets">
               <Bullet text="Acesso livre para consulta online" />
-              <Bullet text="Registo necessário para download" />
+              <Bullet text="Download em pdf" />
               <Bullet text="Suporte técnico disponível" />
             </ul>
           </div>
