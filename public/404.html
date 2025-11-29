@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404</title>
+    <script>
+      // SPA fallback: redireciona para a root do projeto
+      (function () {
+        var path = window.location.pathname;
+        var base = path.substring(0, path.lastIndexOf("/") + 1);
+        window.location.replace(base || "/");
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecionando… <a href="/">Voltar à página inicial</a></p>
+  </body>
+  </html>
+
+
